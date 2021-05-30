@@ -10,7 +10,7 @@ html {
 }
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #505562;
+  background-color: #0f0f0f;
   color: #fff;
 }
 .container {
@@ -21,7 +21,7 @@ body {
   position: relative;
 }
 .header {
-  background-color: #2d2d37;
+  background-color: #050550;
   text-align: center;
   padding: 1.75rem;
 }
@@ -29,21 +29,21 @@ body {
   font-size: 2.25rem;
 }
 .date {
-  background-color: #222;
+  background-color: rgb(177, 174, 174);
   text-align: right;
   font-size: 0.75rem;
   padding: 0.75rem 2rem 0.75rem 0;
 }
 ul.currencies {
   height: calc(100vh - 40px - 100px - 40px - 58px);
-  background-color: #222;
+  background-color: rgb(177, 174, 174);
   padding: 0 1.5rem 1rem 1.5rem;
   overflow-y: scroll;
   display: inline-block;
     *display: inline;
 }
 ul.currencies li {
-  background-color: #2d2d37;
+  background-color: #313135;
   width: 500px;
   border-radius: 5px;
   list-style: none;
@@ -109,7 +109,7 @@ ul.currencies li .close:hover {
 
 ul.subscriptions {
     height: calc(100vh - 40px - 100px - 40px - 58px);
-    background-color: #222;
+    background-color: rgb(177, 174, 174);
     padding: 0 1.5rem 1rem 1.5rem;
     overflow-y: scroll;
     display: inline-block;
